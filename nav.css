@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-home{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(215, 215, 246,0.7),rgb(200, 121, 134,0.7));
+}
+
+.nav-home{
+    height: 14vh;
+    background:linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+}
+
+.nav-links {
+    display: flex;
+    width: auto;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+   
+}
+
+.nav-links li a{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: black;
+}
+.nav-links h1{
+    font-size: 3em;
+}
+
+@media screen and (max-width:950px){
+    .menu {
+        width: 12px;
+        height: 3px;
+        background-color: black;
+    }
+}
+
+.welcome{  
+    width: 800px;
+    height: 600px;
+    background:url("./baby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-top: 50px;
+   margin-left: 500px;
+   border-radius: 20px; 
+   text-align: center;
+   font-size: 20px;
+   box-shadow: 3px 7px;
+}
+
+.welcome h1{
+    font-size: 60px;
+    padding: 50px 0 40px 10px;
+    margin-right: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(0px);
+}
+/* animation */
+
+.welcome p{
+    width: 700px;
+    font-size: 40px;
+}
+
+#email{
+    width: 400px;
+    height: 60px;
+    margin: 20px 10px 30px 40px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    background:linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+
+}
+
+
+
+#next-page{
+    width: 150px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    background:linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+}
+
+
+#next-page a{
+    text-decoration: none;
+    color: purple;
+}
+.nav-links h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width:120em;
+    background: linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+    line-height: 3;
+    text-align: center;
+
+}
+.about-html{
+    overflow: hidden;
+}
+
+/* about page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-body{
+    background-color: rgb(216, 156, 166);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("./father.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-nav{
+height: 14vh; 
+background:linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+}
+
+.nav-links3 {
+display: flex;
+width: auto;
+height: 110px;
+justify-content: space-around;
+align-items: center;
+margin-left: auto;
+list-style: none;
+
+}
+
+.nav-links3 li a{
+font-size: 2.5em;
+text-decoration: none;
+color: black;
+}
+.nav-links3  a:hover{
+background-color: rgb(185, 156, 211);
+border-radius: 10px;
+font-size: 2em;
+}
+.nav-links3 h1{
+font-size: 3em;
+}
+
+/* @media (max-height:1000px){
+    .about-nav{
+        position:absolute;
+        width:10%;
+        top:0;
+        bottom:0;
+        left: 0;
+    }
+} */
+
+.about-container{
+    font-size: 25px;
+    background:linear-gradient(to left, rgb(152, 145, 145,0.3),rgb(142, 132, 132,0.3));
+    width: 30em; 
+     height: 20em; 
+     padding:150px; 
+     margin: 100px 450px;
+     font-size: 30px;
+     backdrop-filter: blur(6px);
+     border-radius: 15px;
+}
+
+/* contact page */
+
+
+
+     /* registration page */
+
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .credentials{
+        background-image: url("./clo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }   
+
+    .heading {
+        padding: 60px;
+        background: rgba(255, 161, 177, 0.65);
+          width: auto;
+        height: 70px;
+        font-weight: 700px;
+        font-size: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family:  'Trebuchet MS', sans-serif;
+        color: rgb(249, 121, 142);
+    }
+    .heading button{
+         width: 90px;
+         height: 40px;
+         font-size: 15px;
+         border-radius: 20px;
+         color: rgb(28, 25, 25);
+         border: none;
+         background-color: rgb(249, 121, 142);
+    }
+    .heading button a{
+        text-decoration: none;
+        color:  rgb(28, 25, 25);
+    }
+    .registration{
+
+        margin-top: 20px;
+        height: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    } 
+    .register{
+       display: flex;
+       padding:2px 30px ;
+       justify-content: center;
+       align-items: center;
+       backdrop-filter: blur(5px);
+       border: 2px solid rgb(209, 204, 204);
+       background: linear-gradient(to left, rgb(232, 228, 228,0.1),rgb(212, 210, 210,0.1));
+       width: 900px;
+       margin-bottom: 5em;
+       /* height: 990px; */
+       flex-direction: column;
+       /* margin: 70px 600px 100px 400px; */
+       font-size: 20px;
+
+       padding: 30px;
+    }
+    #input-reg{
+        display: flex;
+        width: 400px;
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid pink;
+    }
+    .f-part h1{
+        font-size: 45px;
+        font-family:  'Trebuchet MS', sans-serif;
+        margin: 20px;
+    }
+    .f-part h2{
+        font-size: 28px;
+        font-family:  'Trebuchet MS', sans-serif;
+        margin: 10px 20px 9px 50px;
+    }
+    .f-part #label{
+        font-size: 25px;
+    }
+    .m-part #label{
+        font-size: 25px;
+    }
+   .baby-credentials h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:  'Trebuchet MS', sans-serif;
+    /* margin: 10px 20px 9px 50px; */
+   }
+
+   .baby-credentials #label{
+    font-size: 25px;
+   }
+
+   .copyright2{
+/* position: relative; */
+color: black;
+bottom: 0;
+/* width:120em; */
+background: linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+line-height: 3;
+text-align: center;
+/* overflow-x: hidden; */
+/* position: fixed; */
+/* overflow: scroll; */
+
+}
+.toggle-button{
+position: relative;
+top: .75rem;
+right: 1rem;
+display: none;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 21px;
+}
+.toggle-button .bar{
+height: 3px;
+width: 100px;
+background-color:rgb(241, 64, 94);
+border-radius: 10px;
+}
+form{
+width: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.voilla button{
+font-weight: bold;
+color:rgb(204, 32, 61);
+}
+.voilla button a{
+color:rgb(204, 32, 61);
+}
+
+     /* beba2 page */
+     .body-beba2{
+        /* background: linear-gradient(to right, rgb(236, 110, 182),rgb(155, 155, 234)); */
+        background: url("https://images.unsplash.com/photo-1625077097579-a3b37e9cc948?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmFieSUyMGxlZ3xlbnwwfHwwfHw%3D&w=1000&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+    .nav-beba2{
+height: 14vh;
+background:linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+}
+
+.nav-links4 {
+display: flex;
+width: 110em;
+height: 110px;
+justify-content: space-around;
+align-items: center;
+margin-left: auto;
+list-style: none;
+padding: 20px ;
+}
+
+.nav-links4 li a{
+font-size: 2em;
+text-decoration: none;
+color: black;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+.nav-links4 h1{
+font-size: 3.5em;
+font-weight: bolder;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+    .container-beba{
+        display: flex;
+        width: 35em;
+        height: 720px;
+        justify-content: center;
+        background-color:rgba(250,235,215,0.5);
+        align-content: center;
+        margin-top: 30px;
+        margin-left: 550px;
+        border-radius: 20px;
+    }
+    .heading-beba2{
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+         color: rgb(173, 44, 65); 
+        text-align: center;
+        margin-top: 20px;
+        background:linear-gradient(to right,rgb(169, 169, 228),rgb(227, 172, 181));
+        border-radius: 8px;
+        
+    }
+
+    .input-container{
+flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        padding: 30px;    
+    }
+#input{
+    margin-top: 10px;
+    width: 250%;
+    height: 60px;
+    border-color:rgb(223, 156, 178) ;
+    text-align: center;
+    border: 15px;
+    justify-content: center;
+}
+
+#Login-sub{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(173, 44, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border: 1px;
+    background: linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+    font-weight: bold; 
+    
+}
+
+#Login-sub a{
+    text-decoration: none;
+}
+#input{
+        background: transparent;
+        display: flex;
+        width: 400px;
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid pink;
+    }
+    .copyright3{
+position: fixed;
+color: black;
+bottom: 0;
+width:110em;
+background: linear-gradient(to right, rgb(114, 114, 193),rgb(201, 116, 130));
+line-height: 2;
+text-align: center;
+}
+
+/* welcome page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wel-body{
+    height: calc(100vh-8em);
+    padding: 4em;
+    background-image: url("clo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.line{
+    position: relative;
+    top: 100px;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(255,255,255,0.75);
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bolder;
+     text-align: center;
+     white-space: nowrap;
+     overflow: hidden;
+     transform: translateY(100px);
+}
+
+.anim-typewrite{
+    animation: typewriter 5s steps(40) 2s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter  {
+    from{
+        width: 0;
+        color: rgb(13, 12, 12);
+        font-size: 2em;
+    }
+    to{
+        width: 12em;
+        color: rgb(211, 48, 75);
+        font-size: 3em;
+    }
+}
+
+@keyframes blinkTextCursor{
+        from{
+            border-right-color:rgb(255,255,255,0.75);
+        }
+            to{
+                border-right-color: transparent;
+            }
+    }
+
+
+.wel-nav{
+    height: 14vh;
+}
+.nav-links2 {
+    display: flex;
+    width: auto;
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+}
+
+.nav-links2 li a{
+    font-size: 2em;
+    text-decoration: none;
+    color:rgb(234, 181, 189);
+}
+.nav-links2 li{
+    background-color: rgb(221, 44, 74);
+    width: 8em;
+    height: 3em;
+    text-align: center;
+    border-radius: 25px;
+}
+.nav-links2 .logo{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.nav-links2 a:hover{
+    font-size:2em;
+    align-items: center;
+}
+.wel{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 260px 200px 100px 600px;
+}
+.wel button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(221, 44, 74);
+    font-size: 1.3em;
+    color: rgb(56, 240, 215);
+}
+.nav-links2 h1{
+    display: flex;
+      
+}
+.wel button a{
+    text-decoration: none;
+    color: rgb(56, 240, 215);
+}
+
+      
